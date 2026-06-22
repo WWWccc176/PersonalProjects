@@ -1,0 +1,12 @@
+# 忽略 Rust 的依赖锁定文件
+Cargo.lock
+
+# 忽略所有 mp4 格式的视频文件
+*.mp4
+# 忽略 Rust 编译输出目录
+**/target/
+
+# 忽略压缩包（可选，强烈建议）
+*.tar.xz
+*.tar.gz
+*.zip
