@@ -1,0 +1,13 @@
+pub mod asuv;
+pub mod compressions;
+pub mod decompositions;
+pub mod determinant;
+pub mod inverse;
+pub mod matrix;
+pub mod norms;
+pub mod properties;
+pub mod ranks;
+pub mod row_ops;
+pub mod scalar;
+pub mod solve;
+pub mod spectral;
