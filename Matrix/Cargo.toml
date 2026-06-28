@@ -11,3 +11,7 @@ anyhow = "1.0"
 [[bin]]
 name = "mtx"
 path = "src/bin/mtx.rs"
+
+[lib]
+name = "matrix"
+crate-type = ["rlib", "cdylib"]
