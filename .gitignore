@@ -1,5 +1,6 @@
 # Rust
-**/target/
+target/
+# 如果你希望更严格地匹配任意深度的 target 目录，也可以用 **/target/
 
 # Editor
 *.swp
@@ -13,3 +14,71 @@ Thumbs.db
 
 # Logs
 *.log
+
+# --------------------------------------------------
+# C / C++ / CUDA 编译产生的文件及可执行文件
+# --------------------------------------------------
+
+# 目标文件（中间文件）
+*.o
+*.obj
+*.lo
+*.la
+
+# 静态库 / 动态库
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.dll.a
+*.def
+*.exp
+*.ilk
+*.pdb          # Windows 调试符号
+*.idb
+*.pgc
+*.pgd
+
+# 可执行文件（无后缀或常见后缀）
+*.exe
+*.out
+*.app
+*.bin
+
+# 调试 / 覆盖率信息
+*.gcno
+*.gcda
+*.gcov
+
+# CMake 构建目录（常见）
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# CUDA 专用
+*.ptx
+*.cubin
+*.fatbin
+*.cu.o
+*.cu.ptx
+*.cu.cubin
+*.cu.fatbin
+
+# 编译器生成的临时文件
+*.d
+*.dep
+
+# 测试 / 性能分析产物
+*.prof
+*.gcda
+*.gcno
+
+# 通用备份
+*~
+#*#
